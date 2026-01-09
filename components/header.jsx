@@ -32,7 +32,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/spott.png"
+              src="/spot.png"
               alt="Spott logo"
               width={500}
               height={500}
@@ -62,7 +62,7 @@ export default function Header() {
                 size="sm"
                 onClick={() => setShowUpgradeModal(true)}
               >
-                Pricing
+                Pro
               </Button>
             )}
 
